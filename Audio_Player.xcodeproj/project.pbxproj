@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741FCE2B2B10CFB500B75741 /* Michael Sembello - She's A Maniac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 741FCE2A2B10CFB500B75741 /* Michael Sembello - She's A Maniac.mp3 */; };
+		741FCE2F2B10D02800B75741 /* Rick Astley - Never Gonna Give You Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 741FCE2E2B10D02800B75741 /* Rick Astley - Never Gonna Give You Up.mp3 */; };
+		74949EAC2B1611CA005AC17C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74949EAB2B1611CA005AC17C /* ImageView.swift */; };
 		74A8149F2B0F6F250077B16B /* Audio_PlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A8149E2B0F6F250077B16B /* Audio_PlayerApp.swift */; };
 		74A814A12B0F6F250077B16B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A814A02B0F6F250077B16B /* ContentView.swift */; };
 		74A814A32B0F6F260077B16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A814A22B0F6F260077B16B /* Assets.xcassets */; };
 		74A814A62B0F6F260077B16B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A814A52B0F6F260077B16B /* Preview Assets.xcassets */; };
+		74BCA4E02B10CF250092F41E /* Surprise Surprise - Cilla Black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74BCA4DF2B10CF250092F41E /* Surprise Surprise - Cilla Black.mp3 */; };
+		74F68F922B0FC33E0054E690 /* ControlButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F68F912B0FC33E0054E690 /* ControlButtonsView.swift */; };
+		74F68F962B0FC8310054E690 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F68F952B0FC8310054E690 /* Extensions.swift */; };
+		74F68F982B0FC87F0054E690 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F68F972B0FC87F0054E690 /* SliderView.swift */; };
+		74F68F9A2B0FCF8A0054E690 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F68F992B0FCF8A0054E690 /* PlayerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		741FCE2A2B10CFB500B75741 /* Michael Sembello - She's A Maniac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Michael Sembello - She's A Maniac.mp3"; path = "../../../Michael Sembello - She's A Maniac.mp3"; sourceTree = "<group>"; };
+		741FCE2E2B10D02800B75741 /* Rick Astley - Never Gonna Give You Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Rick Astley - Never Gonna Give You Up.mp3"; path = "../../../Rick Astley - Never Gonna Give You Up.mp3"; sourceTree = "<group>"; };
+		74949EAB2B1611CA005AC17C /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		74A8149B2B0F6F250077B16B /* Audio_Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audio_Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A8149E2B0F6F250077B16B /* Audio_PlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio_PlayerApp.swift; sourceTree = "<group>"; };
 		74A814A02B0F6F250077B16B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74A814A22B0F6F260077B16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74A814A52B0F6F260077B16B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74BCA4DF2B10CF250092F41E /* Surprise Surprise - Cilla Black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Surprise Surprise - Cilla Black.mp3"; path = "../../../Surprise Surprise - Cilla Black.mp3"; sourceTree = "<group>"; };
+		74F68F912B0FC33E0054E690 /* ControlButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButtonsView.swift; sourceTree = "<group>"; };
+		74F68F952B0FC8310054E690 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		74F68F972B0FC87F0054E690 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		74F68F992B0FCF8A0054E690 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		741FCE302B10D05200B75741 /* ContentView's */ = {
+			isa = PBXGroup;
+			children = (
+				74A814A02B0F6F250077B16B /* ContentView.swift */,
+				741FCE312B10D07000B75741 /* OtherViews */,
+			);
+			path = "ContentView's";
+			sourceTree = "<group>";
+		};
+		741FCE312B10D07000B75741 /* OtherViews */ = {
+			isa = PBXGroup;
+			children = (
+				74F68F912B0FC33E0054E690 /* ControlButtonsView.swift */,
+				74F68F972B0FC87F0054E690 /* SliderView.swift */,
+				74949EAB2B1611CA005AC17C /* ImageView.swift */,
+			);
+			path = OtherViews;
+			sourceTree = "<group>";
+		};
 		74A814922B0F6F250077B16B = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				74A8149E2B0F6F250077B16B /* Audio_PlayerApp.swift */,
-				74A814A02B0F6F250077B16B /* ContentView.swift */,
+				741FCE302B10D05200B75741 /* ContentView's */,
+				74F68F992B0FCF8A0054E690 /* PlayerViewModel.swift */,
+				74F68F952B0FC8310054E690 /* Extensions.swift */,
+				741FCE2A2B10CFB500B75741 /* Michael Sembello - She's A Maniac.mp3 */,
+				74BCA4DF2B10CF250092F41E /* Surprise Surprise - Cilla Black.mp3 */,
+				741FCE2E2B10D02800B75741 /* Rick Astley - Never Gonna Give You Up.mp3 */,
 				74A814A22B0F6F260077B16B /* Assets.xcassets */,
 				74A814A42B0F6F260077B16B /* Preview Content */,
 			);
@@ -125,7 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741FCE2F2B10D02800B75741 /* Rick Astley - Never Gonna Give You Up.mp3 in Resources */,
 				74A814A62B0F6F260077B16B /* Preview Assets.xcassets in Resources */,
+				74BCA4E02B10CF250092F41E /* Surprise Surprise - Cilla Black.mp3 in Resources */,
+				741FCE2B2B10CFB500B75741 /* Michael Sembello - She's A Maniac.mp3 in Resources */,
 				74A814A32B0F6F260077B16B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +181,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				74A814A12B0F6F250077B16B /* ContentView.swift in Sources */,
+				74F68F922B0FC33E0054E690 /* ControlButtonsView.swift in Sources */,
+				74F68F9A2B0FCF8A0054E690 /* PlayerViewModel.swift in Sources */,
 				74A8149F2B0F6F250077B16B /* Audio_PlayerApp.swift in Sources */,
+				74F68F962B0FC8310054E690 /* Extensions.swift in Sources */,
+				74949EAC2B1611CA005AC17C /* ImageView.swift in Sources */,
+				74F68F982B0FC87F0054E690 /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Audio_Player/Preview Content\"";
+				DEVELOPMENT_TEAM = HN32HK2XMQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Audio_Player/Preview Content\"";
+				DEVELOPMENT_TEAM = HN32HK2XMQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
